@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "337F0D6705D9F7CC9FD63A9B7926E0C4DDDD7A39" : 9223372036854775807,
+    "118FEDC8BCC6FE9DADD54A40E5C4BCE8A5AE3ACF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7126113D-11A2-43F8-81A6-E2B6E70502F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "337F0D6705D9F7CC9FD63A9B7926E0C4DDDD7A39" : "JonieKit\/JonieKit\/",
+    "118FEDC8BCC6FE9DADD54A40E5C4BCE8A5AE3ACF" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JonieKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JonieKit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/rww\/PartJob.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "118FEDC8BCC6FE9DADD54A40E5C4BCE8A5AE3ACF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jonieson\/JonieKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "337F0D6705D9F7CC9FD63A9B7926E0C4DDDD7A39"
+    }
+  ]
+}
