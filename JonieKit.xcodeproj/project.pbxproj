@@ -17,10 +17,6 @@
 		1C6B95FF1EB1950D00524C47 /* JonieKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B95FE1EB1950D00524C47 /* JonieKitUITests.swift */; };
 		1C6B960E1EB1980F00524C47 /* JonieAnimationBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B960D1EB1980F00524C47 /* JonieAnimationBase.swift */; };
 		1C6B96101EB1A51700524C47 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6B960F1EB1A51700524C47 /* TestViewController.swift */; };
-		1C755ABF1EE16919007F5970 /* JoniePopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C755ABE1EE16919007F5970 /* JoniePopAnimation.swift */; };
-		1C755AC11EE16929007F5970 /* JonieMissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C755AC01EE16929007F5970 /* JonieMissAnimation.swift */; };
-		1C755AC41EE16B35007F5970 /* JonieCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C755AC31EE16B35007F5970 /* JonieCommon.swift */; };
-		1C89DDDE1EE5367E0076CA87 /* JonieToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89DDDD1EE5367E0076CA87 /* JonieToastView.swift */; };
 		1C930FD91EDEB42000B44FBB /* BaseNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C930FD81EDEB42000B44FBB /* BaseNetWork.swift */; };
 		1C930FDB1EDEB99200B44FBB /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C930FDA1EDEB99200B44FBB /* BaseViewModel.swift */; };
 		1C930FE11EDEBCEE00B44FBB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C930FE01EDEBCEE00B44FBB /* LoginViewModel.swift */; };
@@ -62,10 +58,6 @@
 		1C6B96001EB1950D00524C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C6B960D1EB1980F00524C47 /* JonieAnimationBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JonieAnimationBase.swift; sourceTree = "<group>"; };
 		1C6B960F1EB1A51700524C47 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		1C755ABE1EE16919007F5970 /* JoniePopAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoniePopAnimation.swift; sourceTree = "<group>"; };
-		1C755AC01EE16929007F5970 /* JonieMissAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JonieMissAnimation.swift; sourceTree = "<group>"; };
-		1C755AC31EE16B35007F5970 /* JonieCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JonieCommon.swift; sourceTree = "<group>"; };
-		1C89DDDD1EE5367E0076CA87 /* JonieToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JonieToastView.swift; sourceTree = "<group>"; };
 		1C930FD81EDEB42000B44FBB /* BaseNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetWork.swift; sourceTree = "<group>"; };
 		1C930FDA1EDEB99200B44FBB /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		1C930FE01EDEBCEE00B44FBB /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -134,8 +126,6 @@
 		1C6B95DA1EB1950D00524C47 /* JonieKit */ = {
 			isa = PBXGroup;
 			children = (
-				1C89DDDC1EE536680076CA87 /* Util */,
-				1C755AC21EE16B1B007F5970 /* Common */,
 				1C930FDD1EDEBC9A00B44FBB /* DataModel */,
 				1C930FD71EDEB40A00B44FBB /* NetWork */,
 				1C930FD41EDEB3BD00B44FBB /* BaseViewModel */,
@@ -175,26 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				1C6B960D1EB1980F00524C47 /* JonieAnimationBase.swift */,
-				1C755ABE1EE16919007F5970 /* JoniePopAnimation.swift */,
-				1C755AC01EE16929007F5970 /* JonieMissAnimation.swift */,
 			);
 			name = AnimationPop;
-			sourceTree = "<group>";
-		};
-		1C755AC21EE16B1B007F5970 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				1C755AC31EE16B35007F5970 /* JonieCommon.swift */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
-		1C89DDDC1EE536680076CA87 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				1C89DDDD1EE5367E0076CA87 /* JonieToastView.swift */,
-			);
-			name = Util;
 			sourceTree = "<group>";
 		};
 		1C930FD41EDEB3BD00B44FBB /* BaseViewModel */ = {
@@ -415,18 +387,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C89DDDE1EE5367E0076CA87 /* JonieToastView.swift in Sources */,
-				1C755AC11EE16929007F5970 /* JonieMissAnimation.swift in Sources */,
 				1C930FD91EDEB42000B44FBB /* BaseNetWork.swift in Sources */,
 				1C6B96101EB1A51700524C47 /* TestViewController.swift in Sources */,
 				1C6B95E41EB1950D00524C47 /* JonieKit.xcdatamodeld in Sources */,
 				1C6B95DE1EB1950D00524C47 /* ViewController.swift in Sources */,
-				1C755ABF1EE16919007F5970 /* JoniePopAnimation.swift in Sources */,
 				1C930FDB1EDEB99200B44FBB /* BaseViewModel.swift in Sources */,
 				1CBF78471EB2EC29009D026E /* AnimationViewController.swift in Sources */,
 				1C6B95DC1EB1950D00524C47 /* AppDelegate.swift in Sources */,
 				1C6B960E1EB1980F00524C47 /* JonieAnimationBase.swift in Sources */,
-				1C755AC41EE16B35007F5970 /* JonieCommon.swift in Sources */,
 				1C930FE11EDEBCEE00B44FBB /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
