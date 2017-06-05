@@ -1,2 +1,0 @@
-# JonieKit
-combination kit
